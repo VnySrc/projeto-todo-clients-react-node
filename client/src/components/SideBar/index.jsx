@@ -1,8 +1,8 @@
 import * as C from "./styled"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faYoutube } from "@fortawesome/free-brands-svg-icons"
-import { faCompass, faCirclePlay } from "@fortawesome/free-regular-svg-icons"
-import { faHouse, faPhotoFilm, faHeadphones, faClapperboard, faArrowDownLong} from "@fortawesome/free-solid-svg-icons"
+import { faCompass, faCirclePlay, faIdCard } from "@fortawesome/free-regular-svg-icons"
+import { faHouse, faPhotoFilm, faBook, faClapperboard, faPassport,faArrowDownLong} from "@fortawesome/free-solid-svg-icons"
 export const SideBar = () => {
     return (
         <C.sideBar>
@@ -10,7 +10,7 @@ export const SideBar = () => {
                 <li>
                     <C.barItensContainer>
                         <FontAwesomeIcon icon={faHouse} />
-                        <p>Inicio</p> 
+                        <p>Home</p> 
                     </C.barItensContainer>
                 </li>
                 <li>
@@ -22,37 +22,37 @@ export const SideBar = () => {
                 <li>
                     <C.barItensContainer>
                         <FontAwesomeIcon icon={faCirclePlay} />
-                        <p>Shorts</p>
+                        <p>Fotos</p>
                     </C.barItensContainer>
                 </li>
                 <li>
                     <C.barItensContainer>
-                        <FontAwesomeIcon icon={faClapperboard} />
-                        <p>Incrições</p>
+                        <FontAwesomeIcon icon={faIdCard} />
+                        <p>Localidade</p>
                     </C.barItensContainer>
                 </li>
                 <li>
                     <C.barItensContainer>
-                        <FontAwesomeIcon icon={faYoutube} />
-                        <p>Originais</p>
+                        <FontAwesomeIcon icon={faPassport} />
+                        <p>Endereço</p>
                     </C.barItensContainer>
                 </li>
                 <li>
                     <C.barItensContainer>
-                        <FontAwesomeIcon icon={faHeadphones} />
-                        <p>Music</p>
+                        <FontAwesomeIcon icon={faBook} />
+                        <p>RH</p>
                     </C.barItensContainer>
                 </li>
                 <li>
                     <C.barItensContainer>
                         <FontAwesomeIcon icon={faPhotoFilm} />
-                        <p>Biblioteca</p>
+                        <p>Sobre</p>
                     </C.barItensContainer>
                 </li>
                 <li>
                     <C.barItensContainer>
                         <FontAwesomeIcon icon={faArrowDownLong} />
-                        <p>Downloads</p>
+                        <p>Mais</p>
                     </C.barItensContainer>
                 </li>
             </C.sideBarItems>
